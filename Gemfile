@@ -21,3 +21,5 @@ gem "webrick", "~> 1.7"
 gem "middleman-livereload", "~> 3.4.3"
 
 gem "haml", "~> 5.2"
+
+gem "opal", "~> 1.1"
