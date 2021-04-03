@@ -17,6 +17,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+redirect 'index.html', to: 'en-us'
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
