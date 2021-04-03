@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ThirdWorldProgrammer Blog</title>
+  <subtitle>This is the ThirdWorldProgrammer Project</subtitle>
+  <id>https://www.thirdworldprogrammer.github.io</id>
+  <link href="https://www.thirdworldprogrammer.github.io"/>
+  <link href="https://www.thirdworldprogrammer.github.io/feed.xml" rel="self"/>
+  <updated>2021-04-02T21:20:48+05:30</updated>
+  <author>
+    <name>Komefumi | Arjun Raju Pillai</name>
+  </author>
+  <entry>
+    <title>My (Initial) Experiences With LeetCode</title>
+    <link rel="alternate" href="https://www.thirdworldprogrammer.github.io/articles/Competitive-Coding/experiences-with-leetcode.html"/>
+    <id>https://www.thirdworldprogrammer.github.io/articles/Competitive-Coding/experiences-with-leetcode.html</id>
+    <published>2021-04-02T21:20:48+05:30</published>
+    <updated>2021-04-03T13:50:44+05:30</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Well, How do I say it.&lt;/p&gt;
+&lt;p&gt;It was pretty enlightening.&lt;/p&gt;
+&lt;p&gt;I mean, yeah, it was hard going through many of the challenges. Or rather the learning cards. I started with arrays.&lt;/p&gt;
+&lt;p&gt;It often had it be that I finished maybe two problems in a day, or maybe one. Actually getting them to pass. A lot of time was spent thinking up solutions, and also with debugging.&lt;/p&gt;
+&lt;p&gt;It often had me spend the whole day accomplishing nothing else but this.&lt;/p&gt;
+&lt;p&gt;Admittedly I have a lot on my mind and back then things were worse. It was so much more difficult to focus. Too difficult. I don't know how I managed to go that far with the paranoia and mental issues I was facing with.&lt;/p&gt;
+&lt;p&gt;This is a good lesson to not repress things. And to face everything. Fears, pain, all of it. But it's necessary to find a good outlet.&lt;/p&gt;
+Oftentimes with something that's a productive endeavor, we might be too focused on the outcome. Like, will spending time on this thing give me any benefit in the long run?
+Will I maybe get a job with it? Maybe a career? We don't know. No one does. But something might happen. You need to be more engrossed with the process than the prize.
+And then, you'll find fulfillment and yes, of course, you'll end up somewhere amazing. But it shouldn't be about money or with arbitrary goals.
+&lt;p&gt;Now that I've written this, I think I see a need to spend more time with LeetCode. And put my hands where my mouth directs me to.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
