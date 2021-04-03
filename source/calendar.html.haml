@@ -8,7 +8,7 @@ pageable: true
     - when 'day'
       = Date.new(year, month, day).strftime('%b %e %Y')
     - when 'month'
-      = Date.new(year, month, 1).stftime('%b %Y')
+      = Date.new(year, month, 1).strftime('%b %Y')
     - when 'year'
       = year
 
