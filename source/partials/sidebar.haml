@@ -1,0 +1,7 @@
+%aside#aside-area{ class: 'aside-area sidebar' }
+  %h4.sidebar-title Articles
+  - organized_article_listing do |section, items|
+    %h5.sidebar-section-title= section
+    %ul{ class: 'sidebar-article-listing' }
+      - items.each do |current|
+        %li= link_to current.title, current
