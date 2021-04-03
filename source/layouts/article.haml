@@ -1,0 +1,5 @@
+= wrap_layout :layout do
+  %h2.article-title= current_page.metadata[:page][:title]
+  .article-content= yield
+  = link_to '/' do
+    %button.back-button& &#8592; Return To Index

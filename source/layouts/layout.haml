@@ -9,25 +9,7 @@
     = stylesheet_link_tag 'site'
     = javascript_include_tag 'site'
   %body
-    #main{ role: 'main', class: "container-outer" }
-      = yield
-
-    -# %aside
-    -#   = blog.articles
-    -#   - puts blog.articles
-    -#   %h2 Recent ARticles
-    -#   %ul
-    -#     - blog.articles[0...10].each do |article|
-    -#       %li
-    -#         = link_to article.title, article
-    -#         %span= article.date.strftime('%b %e')
-
-    -#   %h2 Tags
-    -#   %ul
-    -#     - blog.tags.each do |tag, articles|
-    -#       %li= link_to "#{tag} (#{articles.size})", tag_path(tag)
-
-    -#   %h2 By Year
-    -#   %ul
-    -#     - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
-    -#       %li= link_to "#{year} (#{articles.size})", blog_year_path(year)
+    %main#main{ role: 'main', class: 'container-outer' }
+      %main#content-area{ class: 'content-area' }
+        = yield
+      = partial('partials/sidebar')
